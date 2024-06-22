@@ -1,0 +1,82 @@
+.header {
+  &__nav {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    margin-top: 55px;
+    margin-bottom: 51px;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: auto;
+  }
+
+  &__menu {
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    &-item {
+      margin-right: 40px;
+      color: $secondary-color;
+    
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 30px;
+      text-align: left;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-link {
+      &:hover {
+        transition: all .2s ease-out;
+        color: #b9d2e1;
+      }
+    }
+  }
+
+  &__btn {
+    margin-left: auto;
+    padding: 17px 57px;
+    border-radius: 5px;
+    border: none;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    color: $primary-color;
+    cursor: pointer;
+
+    background: $background-color;
+    background-image: linear-gradient(90deg, $secondary-color 50%, transparent 50%),
+      linear-gradient(90deg, $secondary-color 50%, transparent 50%),
+      linear-gradient(0deg, $secondary-color 50%, transparent 50%),
+      linear-gradient(0deg, $secondary-color 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 5px 15px;
+    background-position: 0px 0px, 200px 100px, 0px 100px, 200px 0px;
+    animation: running-contour 6s linear infinite;
+
+    &:hover {
+      transition: all .2s ease-out;
+      background-image: linear-gradient(90deg, $fourthly-color 50%, transparent 50%),
+        linear-gradient(90deg, $fourthly-color 50%, transparent 50%),
+        linear-gradient(0deg, $fourthly-color 50%, transparent 50%),
+        linear-gradient(0deg, $fourthly-color 50%, transparent 50%);
+    }
+  }
+}
+
+@keyframes running-contour {
+  0% {
+    background-position: -50px 0px, 50px 100%, 0px 50px, 100% -50px;
+  }
+
+  100% {
+    background-position: 100px 0px, -100px 100%, 0px -100px, 100% 100px;
+  }
+}

@@ -55,3 +55,35 @@ h2 {
   width: 1338px;
   margin: 0 auto;
 }
+
+
+
+@include laptop {
+  .container {
+    width: 929px;
+    margin: 0 auto;
+  }
+}
+
+@include tablet {
+  .container {
+    width: 690px;
+    margin: 0 auto;
+  }
+}
+
+
+@include mobile {
+  .container {
+    width: 510px;
+    margin: 0 auto;
+  }
+}
+
+
+@include small__mobile {
+  .container {
+    width: 290px;
+    margin: 0 auto;
+  }
+}

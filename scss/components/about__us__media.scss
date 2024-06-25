@@ -1,0 +1,82 @@
+@include laptop {
+  .about-us {
+    display: flex;
+    margin-bottom: 101px;
+
+    &__image {
+      margin-left: auto;
+    }
+
+    &__text {
+      width: 635px;
+      margin-right: 194px;
+      text-align: left;
+    }
+
+    &__title {
+      margin-top: 0;
+      margin-bottom: 13px;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 80px;
+      text-align: left;
+    }
+
+    &__description {
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: $thirdly-color;
+      margin-top: 0;
+      margin-bottom: 5px;
+    }
+
+    .stat {
+      text-align: center;
+    }
+
+    .stats {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .number {
+      display: block;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 80px;
+      text-align: left;
+      color: #2a3246;
+
+      &:hover {
+        transition: all 0.2s ease-out;
+        color: $fourthly-color;
+      }
+    }
+
+    .label {
+      display: block;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: center;
+      color: $thirdly-color;
+    }
+  }
+}
+
+@include tablet {
+  .introducing {
+  }
+}
+
+@include mobile {
+  .introducing {
+  }
+}
+
+@include small__mobile {
+  .introducing {
+  }
+}

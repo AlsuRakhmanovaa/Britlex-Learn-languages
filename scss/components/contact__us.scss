@@ -1,36 +1,36 @@
 .contact-us {
   margin-bottom: 113px;
 
-  .contact-container {
+  &__container {
     display: flex;
     align-items: center;
+  }
 
-    .contact-us__img {
-      margin-right: 111px;
-    }
+  &__image {
+    margin-right: 111px;
+  }
 
-    .contact-content {
-      max-width: 776px;
+  &__content {
+    max-width: 776px;
+  }
 
-      .contact-us__title {
-        font-size: 48px;
-        font-weight: 600;
-        line-height: 80px;
-        text-align: left;
-        margin-top: 0;
-        margin-bottom: 37px;
-      }
+  &__title {
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 80px;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 37px;
+  }
 
-      .contact-us__description {
-        margin-top: 0;
-        margin-bottom: 49px;
-        font-size: 20px;
-        font-weight: 400;
-        line-height: 30px;
-        text-align: left;
-        color: $thirdly-color;
-      }
-    }
+  &__description {
+    margin-top: 0;
+    margin-bottom: 49px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: $thirdly-color;
   }
 }
 

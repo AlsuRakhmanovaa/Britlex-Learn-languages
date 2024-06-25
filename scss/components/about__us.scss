@@ -17,7 +17,7 @@
     margin-bottom: 23px;
   }
 
-  &__desctiption {
+  &__description { 
     font-size: 20px;
     font-weight: 400;
     line-height: 30px;
@@ -57,5 +57,10 @@
     line-height: 30px;
     text-align: center;
     color: $thirdly-color;
+  }
+
+  &__image {
+    width: 336px;
+    height: 336px;
   }
 }

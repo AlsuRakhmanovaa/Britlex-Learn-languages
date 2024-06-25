@@ -1,0 +1,53 @@
+@include laptop {
+  .footer {
+    &__container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 22px 0 24px 0;
+      border-top: 1px solid #c4c4c4;
+    }
+
+    &__logo-img {
+        width: 89px;
+        height: 45px;
+    }
+    
+    &__nav {
+      display: flex;
+
+      &-item {
+        margin-right: 10px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: $thirdly-color;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        &:hover {
+          transition: all 0.2s ease-out;
+          color: $fourthly-color;
+        }
+      }
+    }
+  }
+}
+
+// @include tablet {
+//   .introducing {
+//   }
+// }
+
+// @include mobile {
+//   .introducing {
+//   }
+// }
+
+// @include small__mobile {
+//   .introducing {
+//   }
+// }

@@ -1,9 +1,17 @@
+@import './media__breakpoints.scss';
 @import './typography';
 @import './background__circles.scss';
 @import './header';
+@import './header__media.scss';
 @import './introducing';
+@import './introducing__media.scss';
 @import './skills';
+@import './skills__media.scss';
 @import './about__us';
+@import './about__us__media.scss';
 @import './pricing';
+@import './pricing__media.scss';
 @import './contact__us';
+@import './contact__us__media.scss';
 @import './footer';
+@import './footer__media.scss';

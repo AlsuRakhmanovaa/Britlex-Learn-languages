@@ -1,0 +1,90 @@
+@include laptop {
+  .contact-us {
+    margin-bottom: 157px;
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__image {
+      margin-right: 109px;
+      width: 312px;
+      height: 281px;
+    }
+
+    &__content {
+      max-width: 520px;
+    }
+
+    &__title {
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 80px;
+      text-align: left;
+      margin-top: 0;
+      margin-bottom: 3px;
+    }
+
+    &__description {
+      margin-top: 0;
+      margin-bottom: 34px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: $thirdly-color;
+    }
+  }
+
+  form {
+    display: flex;
+    align-items: flex-start;
+  
+    input[type="email"] {
+      width: 323px;
+      padding: 20px 25px 19px 28px;
+      border: 1px solid $thirdly-color;
+      border-radius: 10px;
+      margin-right: 14px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      text-align: left;
+      color: $primary-color;
+      background-color: inherit;
+    }
+  
+    button {
+      padding: 19px 56px;
+      border: none;
+      border-radius: 10px;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 24px;
+      text-align: center;
+      background-color: $secondary-color;
+      cursor: pointer;
+  
+      &:hover {
+        transition: all .2s ease-out;
+        background-color: $fourthly-color;
+      }
+    }
+  }
+}
+
+// @include tablet {
+//   .introducing {
+//   }
+// }
+
+// @include mobile {
+//   .introducing {
+//   }
+// }
+
+// @include small__mobile {
+//   .introducing {
+//   }
+// }

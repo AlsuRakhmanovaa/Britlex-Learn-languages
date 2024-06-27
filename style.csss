@@ -1,0 +1,23 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 62 | / @include laptop {
+ * 63 | |   .container {
+ * 64 | |     width: 929px;
+ * 65 | |     margin: 0;
+ * 66 | |     padding: 0;
+ * 67 | |   }
+ * 68 | \ }
+ *    '
+ *   scss/components/base.scss 62:1  @import
+ *   scss/components/main.scss 1:9   root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 62 \2502  \250c  @include laptop {\a 63 \2502  \2502    .container {\a 64 \2502  \2502      width: 929px;\a 65 \2502  \2502      margin: 0;\a 66 \2502  \2502      padding: 0;\a 67 \2502  \2502    }\a 68 \2502  \2514  }\a    \2575 \a   scss/components/base.scss 62:1  @import\a   scss/components/main.scss 1:9   root stylesheet";
+}

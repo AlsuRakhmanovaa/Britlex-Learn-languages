@@ -54,6 +54,7 @@ h2 {
 .container {
   width: 1338px;
   margin: 0 auto;
+  padding: 0;
 }
 
 
@@ -61,29 +62,31 @@ h2 {
 @include laptop {
   .container {
     width: 929px;
-    margin: 0 auto;
+    margin: 0 10px;
+    padding: 0;
   }
 }
 
 @include tablet {
   .container {
     width: 690px;
-    margin: 0 auto;
+    margin: 0 10px;
+    padding: 0;
   }
 }
-
 
 @include mobile {
   .container {
     width: 510px;
-    margin: 0 auto;
+    margin: 0 10px;
+    padding: 0;
   }
 }
-
 
 @include small__mobile {
   .container {
     width: 290px;
-    margin: 0 auto;
+    margin: 0 10px;
+    padding: 0;
   }
 }

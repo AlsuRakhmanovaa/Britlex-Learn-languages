@@ -70,29 +70,22 @@
     }
   }
 
-  &__burger-btn {
+  .hamburger {
     display: none;
-    position: relative;
     width: 40px;
-    height: 17px;
-    border: none;
-    background-color: aquamarine;
+    height: 39px;
+    background-color: inherit;
+    cursor: pointer;
+  }
 
-    span {
-      position: absolute;
-      width: 30px;
-      height: 3px;
-      background-color: #39515E;
-      left: 5px;
-
-      &:nth-child(1) {
-        transform: translateY(-10px);
-      }
-
-      &:nth-child(3) {
-        transform: translateY(10px);
-      }
-    }
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000000;
   }
 }
 

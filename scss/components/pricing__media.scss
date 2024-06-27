@@ -115,17 +115,362 @@
   }
 }
 
-// @include tablet {
-//   .introducing {
-//   }
-// }
+@include tablet {
+  .pricing {
+    margin-bottom: 65px;
 
-// @include mobile {
-//   .introducing {
-//   }
-// }
+    &__title {
+      margin-top: 0;
+      margin-bottom: 26px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 80px;
+    }
 
-// @include small__mobile {
-//   .introducing {
-//   }
-// }
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 25px;
+    }
+
+    &__card {
+      transition: 0.5s;
+
+      &:hover {
+        transform: scale(1.09);
+      }
+
+      &__1 {
+        width: 197px;
+        height: 197px;
+      }
+
+      &__2 {
+        width: 219px;
+        height: 168px;
+        padding-top: 30px;
+      }
+
+      &__3 {
+        width: 210px;
+        height: 210px;
+      }
+
+      &__title {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: left;
+        color: $secondary-color;
+
+        &-1 {
+          margin: 23px 0 15px 0;
+        }
+
+        &-2 {
+          margin: 24px 0 14px 0;
+        }
+
+        &-3 {
+          margin: 11px 0 9px 0;
+        }
+      }
+
+      &__description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: $thirdly-color;
+
+        &-1 {
+          margin-top: 0;
+          margin-bottom: 23px;
+        }
+
+        &-2 {
+          margin-top: 40px;
+          margin-bottom: 45px;
+        }
+
+        &-3 {
+          margin-top: 38px;
+          margin-bottom: 48px;
+        }
+      }
+    }
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    width: 205px;
+    height: 45px;
+    padding: 5px 12px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: $secondary-color;
+    cursor: pointer;
+  
+    &:hover {
+      transition: all .2s ease-out;
+      background-color: #afcbdb;
+    }
+  
+    span {
+      margin-left: 4px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      text-align: left;
+      color: #546269;
+    }
+  }
+}
+
+@include mobile {
+  .pricing {
+    margin-bottom: 163px;
+
+    &__title {
+      margin-top: 0;
+      margin-bottom: 54px;
+      text-align: center;
+      font-size: 30px;
+      font-weight: 600;
+      line-height: 80px;
+    }
+
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 71px;
+    }
+
+    &__card {
+      transition: 0.5s;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      &:hover {
+        transform: scale(1.09);
+      }
+
+      &__1 {
+        width: 291px;
+        height: 291px;
+      }
+
+      &__2 {
+        width: 314px;
+        height: 241px;
+      }
+
+      &__3 {
+        width: 253px;
+        height: 253px;
+      }
+
+      &__title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: $secondary-color;
+
+        &-1 {
+          margin: 29px 0 23px 0;
+        }
+
+        &-2 {
+          margin: 21px 0 19px 0;
+        }
+
+        &-3 {
+          margin: 15px 0 21px 0;
+        }
+      }
+
+      &__description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+        color: $thirdly-color;
+
+        &-1 {
+          margin-top: 0;
+          margin-bottom: 31px;
+        }
+
+        &-2 {
+          margin-top: 0;
+          margin-bottom: 36px;
+        }
+
+        &-3 {
+          margin-top: 0;
+          margin-bottom: 31px;
+        }
+      }
+    }
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    width: 205px;
+    height: 45px;
+    padding: 5px 12px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+    text-align: left;
+    color: $secondary-color;
+    cursor: pointer;
+  
+    &:hover {
+      transition: all .2s ease-out;
+      background-color: #afcbdb;
+    }
+  
+    span {
+      margin-left: 4px;
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      color: #546269;
+    }
+  }
+}
+
+@include small__mobile {
+  .pricing {
+    margin-bottom: 72px;
+
+    &__title {
+      margin-top: 0;
+      margin-bottom: 49px;
+      text-align: center;
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 80px;
+    }
+
+    &__cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 65px;
+    }
+
+    &__card {
+      transition: 0.5s;
+
+      &__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 280px;
+      }
+
+      &:hover {
+        transform: scale(1.09);
+      }
+
+      &__1 {
+        width: 248px;
+        height: 248px;
+      }
+
+      &__2 {
+        width: 257px;
+        height: 197px;
+      }
+
+      &__3 {
+        width: 241px;
+        height: 241px;
+      }
+
+      &__title {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: $secondary-color;
+
+        &-1 {
+          margin: 28px 0 17px 0;
+        }
+
+        &-2 {
+          margin: 12px 0 25px 0;
+        }
+
+        &-3 {
+          margin: 7px 0 30px 0;
+        }
+      }
+
+      &__description {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 19px;
+        text-align: center;
+        color: $thirdly-color;
+
+        &-1 {
+          margin-top: 0;
+          margin-bottom: 33px;
+        }
+
+        &-2 {
+          margin-top: 0;
+          margin-bottom: 31px;
+        }
+
+        &-3 {
+          margin-top: 0;
+          margin-bottom: 38px;
+        }
+      }
+    }
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    width: 170px;
+    height: 37px;
+    padding: 5px 15px;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: $secondary-color;
+    cursor: pointer;
+  
+    &:hover {
+      transition: all .2s ease-out;
+      background-color: #afcbdb;
+    }
+  
+    span {
+      margin-left: 4px;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 21px;
+      color: #546269;
+    }
+  }
+}

@@ -1,0 +1,65 @@
+.about-us {
+  display: flex;
+  margin-bottom: 188px;
+
+  &__text {
+    width: 635px;
+    margin-right: 194px;
+    text-align: left;
+  }
+
+  &__title {
+    margin-top: 0;
+    margin-bottom: 23px;
+  }
+
+  &__description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    color: $thirdly-color;
+    margin-top: 0;
+    margin-bottom: 40px;
+  }
+
+  .stats {
+    display: flex;
+    justify-content: space-between;
+
+    .stat {
+      text-align: center;
+    }
+
+    .number {
+      display: block;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 80px;
+      text-align: center;
+      color: #2a3246;
+
+      &:hover {
+        transition: all 0.2s ease-out;
+        color: $fourthly-color;
+      }
+    }
+
+    .label {
+      display: block;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      text-align: center;
+      color: $thirdly-color;
+    }
+  }
+
+  &__image {
+    margin-left: auto;
+    &__image {
+      width: 500px;
+      height: 500px;
+    }
+  }
+}

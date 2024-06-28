@@ -18,7 +18,7 @@
       border-radius: 10px;
       box-shadow: 0 2px 5px $shadow-color;
       
-      &__1 {
+      &--speaking {
         grid-row-start: span 2;
         transition: 0.5s;
         
@@ -26,7 +26,7 @@
           transform: scale(1.09);
         }
 
-        .card-1 {
+        &__img--speaking {
           display: block;
           margin-bottom: 4px;
           padding: 35px 22px 0 23px;
@@ -74,14 +74,14 @@
         }
       }
 
-      &__2 {
+      &--writing {
         transition: 0.5s;
 
         &:hover {
           transform: scale(1.09);
         }
 
-        .card-2 {
+        .card__img--writing {
           display: block;
           padding: 4px 19px 0 122px;
         }
@@ -128,14 +128,14 @@
         }
       }
 
-      &__3 {
+      &--reading {
         transition: 0.5s;
 
         &:hover {
           transform: scale(1.09);
         }
 
-        .card-3 {
+        .card__img--reading {
           display: block;
           margin-bottom: 0;
           padding: 9px 63px 0 0;
@@ -183,7 +183,7 @@
         }
       }
 
-      &__4 {
+      &--listening {
         grid-column-start: span 2;
         display: flex;
         transition: 0.5s;
@@ -192,7 +192,7 @@
           transform: scale(1.09);
         }
 
-        .card-4 {
+        .card__img--listening {
           display: block;
           padding: 44px 25px 44px 40px;
         }

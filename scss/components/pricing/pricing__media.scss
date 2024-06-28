@@ -24,20 +24,22 @@
         transform: scale(1.09);
       }
 
-      &__1 {
-        width: 222px;
-        height: 222px;
-      }
+      &__img {
+        &--self-study {
+          width: 222px;
+          height: 222px;
+        }
 
-      &__2 {
-        width: 267px;
-        height: 195px;
-        padding-top: 40px;
-      }
+        &--live-classes {
+          width: 267px;
+          height: 195px;
+          padding-top: 40px;
+        }
 
-      &__3 {
-        width: 242px;
-        height: 242px;
+        &--personal-tuition {
+          width: 242px;
+          height: 242px;
+        }
       }
 
       &__title {
@@ -84,6 +86,7 @@
       }
     }
   }
+
   .price {
     display: flex;
     align-items: center;
@@ -100,7 +103,7 @@
     cursor: pointer;
   
     &:hover {
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       background-color: #afcbdb;
     }
   
@@ -141,20 +144,22 @@
         transform: scale(1.09);
       }
 
-      &__1 {
-        width: 197px;
-        height: 197px;
-      }
+      &__img {
+        &--self-study {
+          width: 197px;
+          height: 197px;
+        }
 
-      &__2 {
-        width: 219px;
-        height: 168px;
-        padding-top: 30px;
-      }
+        &--live-classes {
+          width: 219px;
+          height: 168px;
+          padding-top: 30px;
+        }
 
-      &__3 {
-        width: 210px;
-        height: 210px;
+        &--personal-tuition {
+          width: 210px;
+          height: 210px;
+        }
       }
 
       &__title {
@@ -201,6 +206,7 @@
       }
     }
   }
+
   .price {
     display: flex;
     align-items: center;
@@ -217,7 +223,7 @@
     cursor: pointer;
   
     &:hover {
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       background-color: #afcbdb;
     }
   
@@ -264,19 +270,21 @@
         transform: scale(1.09);
       }
 
-      &__1 {
-        width: 291px;
-        height: 291px;
-      }
+      &__img {
+        &--self-study {
+          width: 291px;
+          height: 291px;
+        }
 
-      &__2 {
-        width: 314px;
-        height: 241px;
-      }
+        &--live-classes {
+          width: 314px;
+          height: 241px;
+        }
 
-      &__3 {
-        width: 253px;
-        height: 253px;
+        &--personal-tuition {
+          width: 253px;
+          height: 253px;
+        }
       }
 
       &__title {
@@ -323,6 +331,7 @@
       }
     }
   }
+
   .price {
     display: flex;
     align-items: center;
@@ -339,7 +348,7 @@
     cursor: pointer;
   
     &:hover {
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       background-color: #afcbdb;
     }
   
@@ -348,6 +357,7 @@
       font-size: 16px;
       font-weight: 400;
       line-height: 24px;
+      text-align: left;
       color: #546269;
     }
   }
@@ -386,19 +396,21 @@
         transform: scale(1.09);
       }
 
-      &__1 {
-        width: 248px;
-        height: 248px;
-      }
+      &__img {
+        &--self-study {
+          width: 248px;
+          height: 248px;
+        }
 
-      &__2 {
-        width: 257px;
-        height: 197px;
-      }
+        &--live-classes {
+          width: 257px;
+          height: 197px;
+        }
 
-      &__3 {
-        width: 241px;
-        height: 241px;
+        &--personal-tuition {
+          width: 241px;
+          height: 241px;
+        }
       }
 
       &__title {
@@ -445,6 +457,7 @@
       }
     }
   }
+
   .price {
     display: flex;
     align-items: center;
@@ -461,7 +474,7 @@
     cursor: pointer;
   
     &:hover {
-      transition: all .2s ease-out;
+      transition: all 0.2s ease-out;
       background-color: #afcbdb;
     }
   

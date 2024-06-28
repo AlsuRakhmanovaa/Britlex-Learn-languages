@@ -1,0 +1,322 @@
+@include laptop {
+  .contact-us {
+    margin-bottom: 157px;
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__img {
+      margin-right: 109px;
+
+      .contact-us__image {
+        width: 312px;
+        height: 281px;
+      }
+    }
+
+    &__content {
+      max-width: 520px;
+
+      .contact-us__title {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 3px;
+      }
+
+      .contact-us__description {
+        margin-top: 0;
+        margin-bottom: 34px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: $thirdly-color;
+      }
+
+      form {
+        display: flex;
+        align-items: flex-start;
+
+        input[type="email"] {
+          width: 323px;
+          padding: 20px 25px 19px 28px;
+          border: 1px solid $thirdly-color;
+          border-radius: 10px;
+          margin-right: 14px;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 21px;
+          text-align: left;
+          color: $primary-color;
+          background-color: inherit;
+        }
+
+        button {
+          padding: 19px 56px;
+          border: none;
+          border-radius: 10px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+          background-color: $secondary-color;
+          cursor: pointer;
+
+          &:hover {
+            transition: all 0.2s ease-out;
+            background-color: $fourthly-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include tablet {
+  .contact-us {
+    margin-bottom: 112px;
+
+    &__container {
+      display: flex;
+      align-items: center;
+    }
+
+    &__img {
+      margin-right: 36px;
+      padding-top: 50px;
+
+      .contact-us__image {
+        width: 233px;
+        height: 210px;
+      }
+    }
+
+    &__content {
+      max-width: 400px;
+
+      .contact-us__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 2px;
+      }
+
+      .contact-us__description {
+        margin-top: 0;
+        margin-bottom: 26px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: left;
+        color: $thirdly-color;
+      }
+
+      form {
+        display: flex;
+        align-items: flex-start;
+
+        input[type="email"] {
+          width: 283px;
+          padding: 16px 24px;
+          border: 1px solid $thirdly-color;
+          border-radius: 10px;
+          margin-right: 6px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 18px;
+          text-align: left;
+          color: $primary-color;
+          background-color: inherit;
+        }
+
+        button {
+          padding: 15px 39px;
+          border: none;
+          border-radius: 10px;
+          font-size: 13px;
+          font-weight: 500;
+          line-height: 19px;
+          text-align: center;
+          background-color: $secondary-color;
+          cursor: pointer;
+
+          &:hover {
+            transition: all 0.2s ease-out;
+            background-color: $fourthly-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include mobile {
+  .contact-us {
+    margin-bottom: 144px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__img {
+      margin-bottom: 34px;
+
+      .contact-us__image {
+        width: 358px;
+        height: 322px;
+      }
+    }
+
+    &__content {
+      max-width: 500px;
+
+      .contact-us__title {
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      .contact-us__description {
+        margin-top: 0;
+        margin-bottom: 60px;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: center;
+        color: $thirdly-color;
+      }
+
+      form {
+        display: flex;
+        align-items: flex-start;
+
+        input[type="email"] {
+          width: 350px;
+          padding: 20px 24px;
+          border: 1px solid $thirdly-color;
+          border-radius: 10px;
+          margin-right: 6px;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 19px;
+          text-align: left;
+          color: $primary-color;
+          background-color: inherit;
+        }
+
+        button {
+          padding: 19px 56px;
+          border: none;
+          border-radius: 10px;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          text-align: center;
+          background-color: $secondary-color;
+          cursor: pointer;
+
+          &:hover {
+            transition: all 0.2s ease-out;
+            background-color: $fourthly-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+@include small__mobile {
+  .contact-us {
+    margin-bottom: 57px;
+
+    &__container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__img {
+      margin-bottom: 38px;
+
+      .contact-us__image {
+        width: 253px;
+        height: 228px;
+      }
+    }
+
+    &__content {
+      max-width: 280px;
+
+      .contact-us__title {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 80px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 20px;
+      }
+
+      .contact-us__description {
+        margin-top: 0;
+        margin-bottom: 31px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 21px;
+        text-align: center;
+        color: $thirdly-color;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+
+        input[type="email"] {
+          width: 225px;
+          padding: 16px 26px;
+          margin: 0;
+          border: 1px solid $thirdly-color;
+          border-radius: 10px;
+          font-size: 12px;
+          font-weight: 400;
+          line-height: 19px;
+          text-align: left;
+          color: $primary-color;
+          background-color: inherit;
+          margin-bottom: 17px;
+        }
+
+        button {
+          padding: 20px 109px;
+          border: none;
+          border-radius: 10px;
+          font-size: 14px;
+          font-weight: 500;
+          line-height: 21px;
+          text-align: center;
+          background-color: $secondary-color;
+          cursor: pointer;
+
+          &:hover {
+            transition: all 0.2s ease-out;
+            background-color: $fourthly-color;
+          }
+        }
+      }
+    }
+  }
+}

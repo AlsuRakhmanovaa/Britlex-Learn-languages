@@ -1,5 +1,3 @@
-@import './variables.scss';
-
 @mixin laptop () {
     @media (max-width: $breakpoint__xxl) {
         @content;
